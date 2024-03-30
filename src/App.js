@@ -1,13 +1,16 @@
 import './App.css';
 import HostelDashboard from './pages/HostelDashboard';
 import SurplusForm from './pages/SurplusForm';
-import Launching from './pages/Launching'
-import Login from './pages/Login'
-import Signup from './pages/Signup'
+import Launching from './pages/Launching';
+import VolunteerDashboard from './pages/VolunteerDashboard';
+
 function App() {
   return (
    <>
-   <HostelDashboard/>
+    <Launching/>
+    <HostelDashboard/>
+    <SurplusForm/>
+    <VolunteerDashboard/>
    </>
   );
 }
