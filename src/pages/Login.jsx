@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Login() {
     return (
@@ -27,12 +28,12 @@ function Login() {
                                 </div>
                             </div>
                             <a href="/" className="mb-6 text-center text-sm font-medium text-gray-600 md:text-left">Forgot password?</a>
-                            <button type="submit" className="rounded-lg bg-blue-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md outline-none ring-blue-500 ring-offset-2 transition hover:bg-blue-700 focus:ring-2 md:w-32">Sign in</button>
+                            <Link to="/hostel"><button type="submit" className="rounded-lg bg-blue-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md outline-none ring-blue-500 ring-offset-2 transition hover:bg-blue-700 focus:ring-2 md:w-32">Sign in</button></Link>
                         </form>
                         <div className="py-12 text-center">
                             <p className="text-gray-600">
                                 Don't have an account? 
-                                <a href="/" className="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4"> Sign up for free.</a>
+                                <Link to="/signup" className="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4"> Sign up for free.</Link>
                             </p>
                         </div>
                     </div>

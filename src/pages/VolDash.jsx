@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbarlogout from '../components/Navbarlogout'
 import Footer from '../components/Footer'
 
 function VolDash() {
     return (
         <>
-            <Navbar />
+            <Navbarlogout />
             <section className="bg-white dark:bg-gray-900" >
                 <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                     <div className="mr-auto place-self-center lg:col-span-7">

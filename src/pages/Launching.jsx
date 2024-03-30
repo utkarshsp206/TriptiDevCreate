@@ -28,24 +28,21 @@ function Launching() {
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
               Tripti is an open source non-profit initiative to minimise food
               wastages across all college hostels in India.{" "}
-              <Link to="/signup" className="hover:underline">Sign Up</Link>{" "}
-              {/* <a href={Signup.jsx} className="hover:underline">
-                Sign up
-              </a>{" "} */}
+              <Link to="/signup" className="hover:underline text-slate-950 font-normal">Sign Up</Link>{" "}
               now to contribute towards feeding the needy. Register either as a{" "}
-              <a
-                href="https://flowbite.com/docs/getting-started/introduction/"
-                className="hover:underline"
+              <Link
+                to="/hostel"
+                className="text-slate-950 font-normal hover:underline "
               >
                 Hostel Manager
-              </a>{" "}
+              </Link>{" "}
               or a{" "}
-              <a
-                href="https://flowbite.com/blocks/"
-                className="hover:underline"
+              <Link
+                to="/volunteer"
+                className="hover:underline text-slate-950 font-normal"
               >
                 volunteer
-              </a>{" "}
+              </Link>{" "}
               to bring India one step closer to eradicating food wastages.
             </p>
           </div>
@@ -275,7 +272,7 @@ function Launching() {
                   href="/"
                   className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 "
                 >
-                  Visit the Trust Center
+                  Visit the Hostel Center
                   <svg
                     className="w-5 h-5 ml-1"
                     fill="currentColor"

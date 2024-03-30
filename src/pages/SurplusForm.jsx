@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbarlogout from '../components/Navbarlogout'
 import Footer from '../components/Footer'
 
 function SurplusForm() {
   return (
     <>
-    <Navbar/>
+    <Navbarlogout/>
 
     <h1 className='flex pl-12 ml-14 text-5xl font-extrabold dark:text-grey-900' >Enter the information about today's surplus meal</h1>
     <div className="flex items-center justify-center p-12">

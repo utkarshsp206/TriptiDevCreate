@@ -9,6 +9,8 @@ import {
   Link,
 } from "react-router-dom";
 import Signup from './pages/Signup';
+import Login from './pages/Login';
+import VolDash from './pages/VolDash';
 
 
 function App() {
@@ -17,6 +19,10 @@ function App() {
     <Routes>
       <Route path='/' Component={Launching}/>
       <Route path='/signup' Component={Signup}/>
+      <Route path='/login' Component={Login}/>
+      <Route path='/hostel' Component={HostelDashboard}/>
+      <Route path='/volunteer' Component={VolDash}/>
+      <Route path='/surplus' Component={SurplusForm}/>
     </Routes>
     
    </>
