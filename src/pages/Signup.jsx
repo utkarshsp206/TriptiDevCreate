@@ -5,24 +5,23 @@ function Signup() {
         <>
             <div className="flex w-screen flex-wrap text-slate-800">
                 <div className="relative hidden h-screen select-none flex-col justify-center bg-blue-600 text-center md:flex md:w-1/2">
-                    <div className="mx-auto py-16 px-8 text-white xl:w-[40rem]">
-                        <span className="rounded-full bg-white px-3 py-1 font-medium text-blue-600">New Feature</span>
-                        <p className="my-6 text-3xl font-semibold leading-10">Create animations with <span className="mx-auto block w-56 whitespace-nowrap rounded-lg bg-orange-400 py-2 text-white">drag and drop</span></p>
-                        <p className="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
-                        <a href="/" className="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</a>
-                    </div>
+                <img
+                    className='hidden w-full mb-4 rounded-xl lg:mb-0 lg:flex'
+                    src = './images/volunteerLarge.png'
+                    height={160}
+                    />
                 </div>
                 <div className="flex w-full flex-col md:w-1/2">
-                    <div className="flex justify-center pt-12 md:justify-start md:pl-12">
-                        <a href="/" className="text-2xl font-bold text-blue-600"> Wobble . </a>
+                    <div className="flex justify-center pt-16 md:justify-start mx-auto">
+                        <a href="/" className="text-2xl font-bold text-blue-600">Feed the Need, Not the Bin</a>
                     </div>
-                    <div className="my-auto mx-auto flex flex-col justify-center px-6 pt-8 md:justify-start lg:w-[28rem]">
+                    <div className="my-6 mx-auto flex flex-col justify-center">
                         <p className="text-center text-3xl font-bold md:text-left md:leading-tight">Create your free account</p>
                         <p className="mt-6 text-center font-medium md:text-left">
-                            Already using wobble?
-                            <a href="/" className="whitespace-nowrap font-semibold text-blue-700">Login here</a>
+                            Already using Tripti?
+                            <a href="/" className="whitespace-nowrap font-semibold text-blue-700"> Login here</a>
                         </p>
-                        <button className="-2 mt-8 flex items-center justify-center rounded-md border px-4 py-1 outline-none ring-gray-400 ring-offset-2 transition hover:border-transparent hover:bg-black hover:text-white focus:ring-2"><img className="mr-2 h-5" src="/images/-9jfz8JJkYKu0yDYmD5WM.svg" alt /> Get started with Google</button>
+                        <button className="-2 mt-8 flex items-center justify-center rounded-md border px-4 py-1 outline-none ring-gray-400 ring-offset-2 transition hover:border-transparent hover:bg-black hover:text-white focus:ring-2"><img className="mr-2 h-5" src="/images/google.png" alt /> Get started with Google</button>
                         <div className="relative mt-8 flex h-px place-items-center bg-gray-200">
                             <div className="absolute left-1/2 h-6 -translate-x-1/2 bg-white px-4 text-center text-sm text-gray-500">Or use email instead</div>
                         </div>
