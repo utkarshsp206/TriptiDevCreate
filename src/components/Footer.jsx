@@ -4,9 +4,8 @@ function Footer() {
     return (
         <>
             <footer className="bg-white">
-                <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-                    <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
-                    <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <div className="mx-auto lg:py-16 lg:p-10 flex flex-row justify-center items-center ">
+                    <hr className="border-gray-200" />
                     <div className="text-center">
                         <a href="/" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900">
                             <img src="./images/triptilogo.png" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
