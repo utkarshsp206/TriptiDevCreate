@@ -1,10 +1,13 @@
 import './App.css';
-import Launching from './pages/Launching';
+// import Launching from './pages/Launching';
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
    <>
-    <Launching/>
+   <Navbar/>
+   <Footer/>
    </>
   );
 }
