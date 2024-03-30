@@ -1,9 +1,12 @@
 import './App.css';
-import Launching from './pages/Launching';
+import HostelDashboard from './pages/HostelDashboard';
+import SurplusForm from './pages/SurplusForm';
+
 function App() {
   return (
    <>
-   <Launching/>
+   <Navbar/>
+   <Footer/>
    </>
   );
 }
