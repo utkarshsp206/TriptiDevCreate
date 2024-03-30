@@ -4,14 +4,14 @@ function Login() {
     return (
         <>
             <div className="flex w-screen flex-wrap text-slate-800">
-                <div className="flex w-full flex-col md:w-1/2">
+                <div className="flex w-auto flex-col md:w-1/2">
                     <div className="flex justify-center pt-12 md:justify-start md:pl-12">
-                        <a href="/" className="text-2xl font-bold text-blue-600"> Wobble . </a>
+                        <a href="/" className="text-2xl font-bold text-blue-600 mx-auto">Feed The Need, Not The Bin</a>
                     </div>
-                    <div className="my-auto mx-auto flex flex-col justify-center px-6 pt-8 md:justify-start lg:w-[28rem]">
+                    <div className="my-auto mx-auto flex flex-col justify-center px-6 pt-4 md:justify-start lg:w-[28rem]">
                         <p className="text-center text-3xl font-bold md:leading-tight md:text-left md:text-5xl">
                             Welcome back <br />
-                            to <span className="text-blue-600">Wobble</span>
+                            to <span className="text-blue-600">Tripti</span>
                         </p>
                         <p className="mt-6 text-center font-medium md:text-left">Sign in to your account below.</p>
 
@@ -31,20 +31,18 @@ function Login() {
                         </form>
                         <div className="py-12 text-center">
                             <p className="text-gray-600">
-                                Don't have an account?
-                                <a href="/" className="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4">Sign up for free.</a>
+                                Don't have an account? 
+                                <a href="/" className="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4"> Sign up for free.</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="relative hidden h-screen select-none bg-blue-600 bg-gradient-to-br md:block md:w-1/2">
-                    <div className="py-16 px-8 text-white xl:w-[40rem]">
-                        <span className="rounded-full bg-white px-3 py-1 font-medium text-blue-600">New Feature</span>
-                        <p className="my-6 text-3xl font-semibold leading-10">Create animations with <span className="abg-white whitespace-nowrap py-2 text-cyan-300">drag and drop</span>.</p>
-                        <p className="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
-                        <a href="/" className="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</a>
-                    </div>
-                    <img className="ml-8 w-11/12 max-w-lg rounded-lg object-cover" src="/images/aaFKzowNcgxqSdxMw11na.png" />
+                    <img
+                    className='hidden w-full mb-4 rounded-xl lg:mb-0 lg:flex pt-24'
+                    src = './images/kolej.png'
+                    height={160}
+                    />
                 </div>
             </div>
 
