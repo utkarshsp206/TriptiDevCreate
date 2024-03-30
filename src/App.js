@@ -1,13 +1,13 @@
 import './App.css';
-// import Launching from './pages/Launching';
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import HostelDashboard from './pages/HostelDashboard';
+import SurplusForm from './pages/SurplusForm';
 
 function App() {
   return (
    <>
-   <Navbar/>
-   <Footer/>
+
+    {/* <HostelDashboard/> */}
+    <SurplusForm/>
    </>
   );
 }
