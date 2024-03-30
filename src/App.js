@@ -5,9 +5,8 @@ import SurplusForm from './pages/SurplusForm';
 function App() {
   return (
    <>
-
-    {/* <HostelDashboard/> */}
-    <SurplusForm/>
+   <Navbar/>
+   <Footer/>
    </>
   );
 }
