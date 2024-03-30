@@ -1,10 +1,18 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Signup from "./Signup";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 
 function Launching() {
   return (
     <>
+
       <Navbar />
       <section className="bg-white">
         <div className="grid max-w-screen-xl px-4 pt-10 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-10">
@@ -13,16 +21,17 @@ function Launching() {
               className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl "
               style={{ fontSize: "39px", fontWeight: 700 }}
             >
-              Revolutionizing Food Management 
+              Revolutionizing Food Management
               <br />
               with Machine Learning.
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
               Tripti is an open source non-profit initiative to minimise food
               wastages across all college hostels in India.{" "}
-              <a href="https://tailwindcss.com" className="hover:underline">
+              <Link to="/signup" className="hover:underline">Sign Up</Link>{" "}
+              {/* <a href={Signup.jsx} className="hover:underline">
                 Sign up
-              </a>{" "}
+              </a>{" "} */}
               now to contribute towards feeding the needy. Register either as a{" "}
               <a
                 href="https://flowbite.com/docs/getting-started/introduction/"
@@ -41,9 +50,9 @@ function Launching() {
             </p>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img 
-            className="hidden w-full mb-4 rounded-xl lg:mb-0 lg:flex"
-            src="./images/ML.jpg" alt="" 
+            <img
+              className="hidden w-full mb-4 rounded-xl lg:mb-0 lg:flex"
+              src="./images/ML.jpg" alt=""
             />
           </div>
         </div>
@@ -53,7 +62,7 @@ function Launching() {
         <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
           {/* Row */}
           <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-          <img
+            <img
               className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
               src="./images/rectangle 1270.png"
               alt="dashboard feature image"
@@ -63,7 +72,7 @@ function Launching() {
                 Our Machine Learning Model - Poshan
               </h2>
               <p className="mb-8 font-light lg:text-xl">
-                Our expert model analyses the accurate requirement of the food to be prepared by considering various factors, such as: 
+                Our expert model analyses the accurate requirement of the food to be prepared by considering various factors, such as:
               </p>
               {/* List */}
               <ul
@@ -154,7 +163,7 @@ function Launching() {
                 Still if food is left...
               </h2>
               <p className="mb-8 font-light lg:text-xl">
-              If food is still left, we won't let you waste it with the help of our army of volunteers who are ready to help the needy.
+                If food is still left, we won't let you waste it with the help of our army of volunteers who are ready to help the needy.
               </p>
               {/* List */}
               <ul
@@ -308,7 +317,7 @@ function Launching() {
       </section>
 
       <Footer />
-    </>
+      </>
   );
 }
 
