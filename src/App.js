@@ -1,13 +1,9 @@
 import './App.css';
-// import Launching from './pages/Launching';
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-
+import Launching from './pages/Launching';
 function App() {
   return (
    <>
-   <Navbar/>
-   <Footer/>
+   <Launching/>
    </>
   );
 }
