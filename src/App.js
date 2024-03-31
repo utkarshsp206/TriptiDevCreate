@@ -11,6 +11,7 @@ import {
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import VolDash from './pages/VolDash';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path='/hostel' Component={HostelDashboard}/>
       <Route path='/volunteer' Component={VolDash}/>
       <Route path='/surplus' Component={SurplusForm}/>
+      <Route path='/contact' Component={Contact}/>
     </Routes>
     
    </>
